@@ -16,26 +16,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-Uc-J3K">
-                                <rect key="frame" x="256" y="230" width="200" height="100"/>
-                                <state key="normal" title="Button">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-Uc-J3K">
+                                <rect key="frame" x="200" y="230" width="200" height="100"/>
+                                <state key="normal" image="us">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nh-38-laI">
-                                <rect key="frame" x="256" y="360" width="200" height="100"/>
-                                <state key="normal" title="Button">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nh-38-laI">
+                                <rect key="frame" x="200" y="360" width="200" height="100"/>
+                                <state key="normal" image="us">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zma-UG-Rk1">
-                                <rect key="frame" x="256" y="100" width="200" height="100"/>
-                                <state key="normal" title="Button">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zma-UG-Rk1">
+                                <rect key="frame" x="200" y="100" width="200" height="100"/>
+                                <state key="normal" image="us">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9nh-38-laI" firstAttribute="top" secondItem="E1N-Uc-J3K" secondAttribute="bottom" constant="30" id="63g-JL-Ofo"/>
+                            <constraint firstItem="zma-UG-Rk1" firstAttribute="centerX" secondItem="E1N-Uc-J3K" secondAttribute="centerX" id="77Y-XI-o4r"/>
+                            <constraint firstAttribute="centerX" secondItem="zma-UG-Rk1" secondAttribute="centerX" id="Je6-qE-eV4"/>
+                            <constraint firstAttribute="centerX" secondItem="zma-UG-Rk1" secondAttribute="centerX" constant="-56" id="Xig-mZ-Fa5"/>
+                            <constraint firstItem="zma-UG-Rk1" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="36" id="YIO-D6-bbe"/>
+                            <constraint firstItem="E1N-Uc-J3K" firstAttribute="top" secondItem="zma-UG-Rk1" secondAttribute="bottom" constant="30" id="kNQ-oJ-LMF"/>
+                            <constraint firstItem="E1N-Uc-J3K" firstAttribute="centerX" secondItem="9nh-38-laI" secondAttribute="centerX" id="y32-KB-mwW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Xig-mZ-Fa5"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="nba-Uh-rg6"/>
                 </viewController>
@@ -62,4 +76,7 @@
             <point key="canvasLocation" x="416" y="334"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="us" width="200" height="100"/>
+    </resources>
 </document>
