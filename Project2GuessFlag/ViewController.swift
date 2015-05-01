@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var firstButton: UIButton!
+    
+    @IBOutlet weak var secondButton: UIButton!
+    
+    @IBOutlet weak var thridButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()

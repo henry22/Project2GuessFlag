@@ -52,6 +52,11 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="nba-Uh-rg6"/>
+                    <connections>
+                        <outlet property="firstButton" destination="zma-UG-Rk1" id="22c-Rt-lCF"/>
+                        <outlet property="secondButton" destination="E1N-Uc-J3K" id="B01-H8-QfS"/>
+                        <outlet property="thridButton" destination="9nh-38-laI" id="Bhl-Jl-7xa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
