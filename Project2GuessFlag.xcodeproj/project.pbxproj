@@ -77,11 +77,8 @@
 		BAC43E221AF3B25E003F5EDE /* Project2GuessFlag */ = {
 			isa = PBXGroup;
 			children = (
-				BAC43E251AF3B25E003F5EDE /* AppDelegate.swift */,
 				BAC43E271AF3B25E003F5EDE /* ViewController.swift */,
 				BAC43E291AF3B25E003F5EDE /* Main.storyboard */,
-				BAC43E2C1AF3B25E003F5EDE /* Images.xcassets */,
-				BAC43E2E1AF3B25E003F5EDE /* LaunchScreen.xib */,
 				BAC43E231AF3B25E003F5EDE /* Supporting Files */,
 			);
 			path = Project2GuessFlag;
@@ -90,6 +87,9 @@
 		BAC43E231AF3B25E003F5EDE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAC43E251AF3B25E003F5EDE /* AppDelegate.swift */,
+				BAC43E2C1AF3B25E003F5EDE /* Images.xcassets */,
+				BAC43E2E1AF3B25E003F5EDE /* LaunchScreen.xib */,
 				BAC43E241AF3B25E003F5EDE /* Info.plist */,
 			);
 			name = "Supporting Files";
