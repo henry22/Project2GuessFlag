@@ -25,6 +25,16 @@ class ViewController: UIViewController {
         
         countries += ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
         
+        // A borderWidth of 1, which will draw a one point black line around them
+        firstButton.layer.borderWidth = 1
+        secondButton.layer.borderWidth = 1
+        thirdButton.layer.borderWidth = 1
+        
+        // We can't put a UIColor into the borderColor property because it belongs to a CALayer. So, we add .CGColor to the end of the UIColor to have it automagically converted to a CGColor.
+        firstButton.layer.borderColor = UIColor.lightGrayColor().CGColor
+        secondButton.layer.borderColor = UIColor.lightGrayColor().CGColor
+        thirdButton.layer.borderColor = UIColor.lightGrayColor().CGColor
+        
         askQuestion()
     }
     
