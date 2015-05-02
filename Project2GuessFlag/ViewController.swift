@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var secondButton: UIButton!
     
     @IBOutlet weak var thridButton: UIButton!
+    
+    var countries = [String]()
+    var score = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
