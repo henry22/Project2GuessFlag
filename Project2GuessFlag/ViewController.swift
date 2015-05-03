@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var thirdButton: UIButton!
     
     var countries = [String]()
+    
+    var correctAnswer = 0
     var score = 0
 
     override func viewDidLoad() {
@@ -50,6 +52,8 @@ class ViewController: UIViewController {
         secondButton.setImage(UIImage(named: countries[1]), forState: UIControlState.Normal)
         thirdButton.setImage(UIImage(named: countries[2]), forState: .Normal)
         
+        //To generate a random number between 0 and 2 inclusive, then convert it to an Int assign it to correctAnswer
+        correctAnswer = Int(arc4random_uniform(3))
     }
 
     override func didReceiveMemoryWarning() {
