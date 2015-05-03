@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA3D94521AF6039200DAB30F /* Array+Shuffling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3D94511AF6039200DAB30F /* Array+Shuffling.swift */; };
 		BAC43E261AF3B25E003F5EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC43E251AF3B25E003F5EDE /* AppDelegate.swift */; };
 		BAC43E281AF3B25E003F5EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC43E271AF3B25E003F5EDE /* ViewController.swift */; };
 		BAC43E2B1AF3B25E003F5EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC43E291AF3B25E003F5EDE /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA3D94511AF6039200DAB30F /* Array+Shuffling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffling.swift"; sourceTree = "<group>"; };
 		BAC43E201AF3B25E003F5EDE /* Project2GuessFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2GuessFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC43E241AF3B25E003F5EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC43E251AF3B25E003F5EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				BAC43E271AF3B25E003F5EDE /* ViewController.swift */,
+				BA3D94511AF6039200DAB30F /* Array+Shuffling.swift */,
 				BAC43E291AF3B25E003F5EDE /* Main.storyboard */,
 				BAC43E231AF3B25E003F5EDE /* Supporting Files */,
 			);
@@ -214,6 +217,7 @@
 			files = (
 				BAC43E281AF3B25E003F5EDE /* ViewController.swift in Sources */,
 				BAC43E261AF3B25E003F5EDE /* AppDelegate.swift in Sources */,
+				BA3D94521AF6039200DAB30F /* Array+Shuffling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				BAC43E411AF3B25E003F5EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAC43E421AF3B25E003F5EDE /* Build configuration list for PBXNativeTarget "Project2GuessFlagTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				BAC43E441AF3B25E003F5EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -39,6 +39,9 @@ class ViewController: UIViewController {
     }
     
     func askQuestion() {
+        
+        countries.shuffle()
+        
         //UIImage(named:) read from an array by position
         //firstbutton.setImage() assigns a UIImage to the button
         //forState: .Normal The setImage() method which state of the button should be changed?which means "the standard state of the button."
