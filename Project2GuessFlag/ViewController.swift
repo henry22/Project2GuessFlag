@@ -54,6 +54,8 @@ class ViewController: UIViewController {
         
         //To generate a random number between 0 and 2 inclusive, then convert it to an Int assign it to correctAnswer
         correctAnswer = Int(arc4random_uniform(3))
+        //Read the string out from the countries array at the position of correctAnswer, then uppercase it
+        title = countries[correctAnswer].uppercaseString
     }
 
     override func didReceiveMemoryWarning() {
