@@ -57,6 +57,9 @@ class ViewController: UIViewController {
         //Read the string out from the countries array at the position of correctAnswer, then uppercase it
         title = countries[correctAnswer].uppercaseString
     }
+    //Which button was tapped so we can judge whether the answer was correct
+    @IBAction func buttonTapped(sender: UIButton) {
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
