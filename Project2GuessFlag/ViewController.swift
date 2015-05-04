@@ -69,6 +69,12 @@ class ViewController: UIViewController {
             title = "Wrong"
             --score
         }
+        //The title variable was set in our if statement to be either "correct" or "wrong", .Alert(UIAlertControllerStyle.Alert),which pops up a message box over the center of the screen
+        let alertController = UIAlertController(title: title, message: "Score is \(score)", preferredStyle: .Alert)
+        //The UIAlertAction data type to add a button to the alert that says "Continue", and gives it the style "Default"(UIAlertActionStyle.Default),the handler parameter is looking for a closure,but in our case we want the game to continue when the button is tapped, so we pass in askQuestion so that iOS will call our askQuestion() method
+        alertController.addAction(UIAlertAction(title: "Continue", style: .Default, handler: askQuestion))
+        //presentViewController(),which takes three parameters: a view controller to present, whether to animate the presentation, and another closure that should be executed when the presentation animation has finished
+        presentViewController(alertController, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
