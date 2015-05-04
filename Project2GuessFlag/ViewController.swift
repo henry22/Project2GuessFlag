@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         askQuestion()
     }
     
-    func askQuestion() {
+    func askQuestion(action: UIAlertAction!) {
         
         countries.shuffle()
         
