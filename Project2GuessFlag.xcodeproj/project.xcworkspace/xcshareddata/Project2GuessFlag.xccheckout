@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C9C19586-9633-4D1D-8867-854DA385A2A7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Project2GuessFlag</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1D751CD6539956C613AE83EF7BB221975E851134</key>
 		<string>https://github.com/henry22/Project2GuessFlag.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Project2GuessFlag.xcodeproj/project.xcworkspace</string>
+	<string>Project2GuessFlag.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1D751CD6539956C613AE83EF7BB221975E851134</key>
